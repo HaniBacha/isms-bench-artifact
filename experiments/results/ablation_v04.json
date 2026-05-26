@@ -1,0 +1,16 @@
+{
+  "methods": [
+    "random",
+    "majority",
+    "bm25_metadata_blind_rules",
+    "bm25_metadata_aware_rules",
+    "tfidf_metadata_aware_rules",
+    "oracle_retrieval_metadata_aware_rules",
+    "bm25_provenance_balanced",
+    "bm25_provenance_conservative",
+    "bm25_provenance_conservative_source_guard",
+    "oracle_retrieval_provenance_balanced"
+  ],
+  "num_methods": 10,
+  "version": "v04"
+}

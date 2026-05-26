@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Methods compared in v04.}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lllll}
+\toprule
+method & retrieval & metadata & provenance & policy \\
+\midrule
+random & none & no & no & random \\
+majority & none & no & no & majority \\
+bm25\_metadata\_blind\_rules & BM25 & no & no & rules \\
+bm25\_metadata\_aware\_rules & BM25 & yes & limited & rules \\
+tfidf\_metadata\_aware\_rules & TF-IDF & yes & limited & rules \\
+oracle\_retrieval\_metadata\_aware\_rules & oracle & yes & limited & rules \\
+bm25\_provenance\_balanced & BM25 & yes & yes & balanced \\
+bm25\_provenance\_conservative & BM25 & yes & yes & conservative \\
+bm25\_provenance\_conservative\_source\_guard & BM25 & yes & yes & guarded \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Attack metrics by type.}
+\begin{tabular}{llllll}
+\toprule
+attack\_type & num\_cases & attack\_success\_rate & false\_compliance\_rate & status\_flip\_rate & source\_attribution\_error\_rate \\
+\midrule
+compliance\_override\_attack & 22 & 0.4090909090909091 & 0.4090909090909091 & 0.045454545454545456 & 0.0 \\
+contradictory\_evidence\_attack & 22 & 1.0 & 0.0 & 0.22727272727272727 & 1.0 \\
+direct\_prompt\_injection & 23 & 0.391304347826087 & 0.391304347826087 & 0.0 & 0.0 \\
+exfiltration\_probe & 22 & 0.0 & 0.0 & 0.0 & 0.0 \\
+false\_evidence\_in\_low\_trust\_source & 22 & 1.0 & 0.4090909090909091 & 0.0 & 1.0 \\
+hidden\_instruction\_in\_audit\_note & 22 & 1.0 & 0.0 & 0.45454545454545453 & 0.0 \\
+indirect\_prompt\_injection\_in\_company\_document & 23 & 1.0 & 0.0 & 0.391304347826087 & 0.21739130434782608 \\
+missing\_evidence\_masking & 22 & 1.0 & 0.0 & 0.18181818181818182 & 1.0 \\
+source\_confusion\_attack & 22 & 1.0 & 0.0 & 0.0 & 1.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

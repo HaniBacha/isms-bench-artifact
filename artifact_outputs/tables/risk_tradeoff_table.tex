@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Risk and utility trade-off for the three main deterministic methods. Lower false compliance, abstention, and residual attack risk are better; Macro-F1 is reported for utility context.}
+\label{tab:risk-tradeoff}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llllll}
+\toprule
+method & Macro-F1 & false compliance & abstention & residual attack risk & interpretation \\
+\midrule
+metadata-aware & 0.5830 & 0.1694 & 0.2047 & 0.7660 & higher utility, higher risk \\
+provenance-balanced & 0.5729 & 0.0971 & 0.1741 & 0.3296 & balanced risk reduction \\
+provenance-conservative & 0.5124 & 0.0288 & 0.4047 & 0.3184 & lowest false compliance, highest abstention \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Risk and utility trade-off. Macro-F1, false compliance, and abstention are computed on the 1,700-case non-attack benchmark; residual attack risk is computed on the combined attack suite.}
+\label{tab:risk-tradeoff-main}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrl}
+\toprule
+Method & Macro-F1 & False comp. & Abstain & Resid. attack risk & Interpretation \\
+\midrule
+Metadata-aware & 0.583 & 0.169 & 0.205 & 0.766 & higher utility, higher risk \\
+Prov.-balanced & 0.573 & 0.097 & 0.174 & 0.330 & balanced risk reduction \\
+Prov.-conservative & 0.512 & 0.029 & 0.405 & 0.318 & lowest false compliance, highest abstention \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

@@ -1,0 +1,224 @@
+{
+  "baselines": {
+    "bm25_metadata_aware_rules": {
+      "metrics": {
+        "abstention_rate": 0.20470588235294118,
+        "evidence_f1": 0.6539453781512604,
+        "f1_fulfilled": 0.40312500000000007,
+        "f1_not_fulfilled": 0.6606741573033708,
+        "f1_partially_fulfilled": 0.617059891107078,
+        "f1_unclear": 0.6510416666666666,
+        "false_compliance_rate": 0.16941176470588235,
+        "false_non_compliance_rate": 0.12307692307692308,
+        "macro_f1": 0.5829751787692788,
+        "num_cases": 1700,
+        "over_conservatism_rate": 0.5461538461538461,
+        "performance_drop_under_mutation": 0.08360319344770784,
+        "risk_weighted_error": 0.6689705882352941,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "metadata_aware_rule_based_v02",
+      "retrieval_method": "bm25"
+    },
+    "bm25_metadata_blind_rules": {
+      "metrics": {
+        "abstention_rate": 0.12823529411764706,
+        "evidence_f1": 0.6539453781512604,
+        "f1_fulfilled": 0.38738738738738737,
+        "f1_not_fulfilled": 0.5424588086185044,
+        "f1_partially_fulfilled": 0.4988523335883703,
+        "f1_unclear": 0.5235109717868338,
+        "false_compliance_rate": 0.2858823529411765,
+        "false_non_compliance_rate": 0.12307692307692308,
+        "macro_f1": 0.488052375345274,
+        "num_cases": 1700,
+        "over_conservatism_rate": 0.5461538461538461,
+        "performance_drop_under_mutation": 0.019939122553707722,
+        "risk_weighted_error": 0.9205882352941176,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "metadata_blind_rule_based_v02",
+      "retrieval_method": "bm25"
+    },
+    "bm25_provenance_balanced": {
+      "metrics": {
+        "abstention_rate": 0.17411764705882352,
+        "evidence_f1": 0.7962889822595705,
+        "f1_fulfilled": 0.7224669603524229,
+        "f1_not_fulfilled": 0.707720588235294,
+        "f1_partially_fulfilled": 0.42841530054644805,
+        "f1_unclear": 0.4329608938547486,
+        "false_compliance_rate": 0.09705882352941177,
+        "false_non_compliance_rate": 0.0,
+        "macro_f1": 0.5728909357472284,
+        "num_cases": 1700,
+        "over_conservatism_rate": 0.36923076923076925,
+        "performance_drop_under_mutation": 0.1511771519302989,
+        "risk_weighted_error": 0.49661764705882355,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "provenance_balanced_v03",
+      "retrieval_method": "bm25"
+    },
+    "bm25_provenance_conservative": {
+      "metrics": {
+        "abstention_rate": 0.4047058823529412,
+        "evidence_f1": 0.7766811391223156,
+        "f1_fulfilled": 0.6528497409326425,
+        "f1_not_fulfilled": 0.707720588235294,
+        "f1_partially_fulfilled": 0.24319999999999997,
+        "f1_unclear": 0.4458483754512636,
+        "false_compliance_rate": 0.028823529411764706,
+        "false_non_compliance_rate": 0.0,
+        "macro_f1": 0.5124046761548,
+        "num_cases": 1700,
+        "over_conservatism_rate": 0.5153846153846153,
+        "performance_drop_under_mutation": 0.3209432257045528,
+        "risk_weighted_error": 0.4375,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "provenance_conservative_v03",
+      "retrieval_method": "bm25"
+    },
+    "bm25_provenance_conservative_source_guard": {
+      "metrics": {
+        "abstention_rate": 0.4047058823529412,
+        "evidence_f1": 0.7766811391223156,
+        "f1_fulfilled": 0.6528497409326425,
+        "f1_not_fulfilled": 0.707720588235294,
+        "f1_partially_fulfilled": 0.24319999999999997,
+        "f1_unclear": 0.4458483754512636,
+        "false_compliance_rate": 0.028823529411764706,
+        "false_non_compliance_rate": 0.0,
+        "macro_f1": 0.5124046761548,
+        "num_cases": 1700,
+        "over_conservatism_rate": 0.5153846153846153,
+        "performance_drop_under_mutation": 0.3209432257045528,
+        "risk_weighted_error": 0.4375,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "provenance_conservative_with_source_guard_v03",
+      "retrieval_method": "bm25"
+    },
+    "majority": {
+      "metrics": {
+        "abstention_rate": 0.0,
+        "evidence_f1": 0.0,
+        "f1_fulfilled": 0.0,
+        "f1_not_fulfilled": 0.0,
+        "f1_partially_fulfilled": 0.44036697247706424,
+        "f1_unclear": 0.0,
+        "false_compliance_rate": 0.48823529411764705,
+        "false_non_compliance_rate": 0.0,
+        "macro_f1": 0.11009174311926606,
+        "num_cases": 1700,
+        "over_conservatism_rate": 1.0,
+        "performance_drop_under_mutation": -0.006009615384615391,
+        "risk_weighted_error": 1.0823529411764705,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "majority_class_baseline_v02",
+      "retrieval_method": "none"
+    },
+    "oracle_retrieval_metadata_aware_rules": {
+      "metrics": {
+        "abstention_rate": 0.26,
+        "evidence_f1": 0.8218450046685342,
+        "f1_fulfilled": 0.5114942528735632,
+        "f1_not_fulfilled": 0.6635658914728683,
+        "f1_partially_fulfilled": 0.6416040100250626,
+        "f1_unclear": 0.7354988399071924,
+        "false_compliance_rate": 0.22,
+        "false_non_compliance_rate": 0.0,
+        "macro_f1": 0.6380407485696716,
+        "num_cases": 1700,
+        "over_conservatism_rate": 0.5435897435897435,
+        "performance_drop_under_mutation": 0.12086039480011479,
+        "risk_weighted_error": 0.6163235294117647,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "metadata_aware_rule_based_v02",
+      "retrieval_method": "oracle"
+    },
+    "oracle_retrieval_provenance_balanced": {
+      "metrics": {
+        "abstention_rate": 0.1676470588235294,
+        "evidence_f1": 0.8893464052287582,
+        "f1_fulfilled": 0.923076923076923,
+        "f1_not_fulfilled": 0.697463768115942,
+        "f1_partially_fulfilled": 0.4691689008042896,
+        "f1_unclear": 0.3829787234042553,
+        "false_compliance_rate": 0.10647058823529412,
+        "false_non_compliance_rate": 0.0,
+        "macro_f1": 0.6181720788503524,
+        "num_cases": 1700,
+        "over_conservatism_rate": 0.0,
+        "performance_drop_under_mutation": 0.10732964702323611,
+        "risk_weighted_error": 0.46941176470588236,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "provenance_balanced_v03",
+      "retrieval_method": "oracle"
+    },
+    "random": {
+      "metrics": {
+        "abstention_rate": 0.2564705882352941,
+        "evidence_f1": 0.0,
+        "f1_fulfilled": 0.2345679012345679,
+        "f1_not_fulfilled": 0.2544169611307421,
+        "f1_partially_fulfilled": 0.2644067796610169,
+        "f1_unclear": 0.2476635514018692,
+        "false_compliance_rate": 0.36823529411764705,
+        "false_non_compliance_rate": 0.23846153846153847,
+        "macro_f1": 0.25026379835704904,
+        "num_cases": 1700,
+        "over_conservatism_rate": 0.517948717948718,
+        "performance_drop_under_mutation": -0.02021671159770899,
+        "risk_weighted_error": 1.435735294117647,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "random_baseline_v02",
+      "retrieval_method": "none"
+    },
+    "tfidf_metadata_aware_rules": {
+      "metrics": {
+        "abstention_rate": 0.2,
+        "evidence_f1": 0.6652717086834734,
+        "f1_fulfilled": 0.4272727272727273,
+        "f1_not_fulfilled": 0.6606741573033708,
+        "f1_partially_fulfilled": 0.6238532110091743,
+        "f1_unclear": 0.6368421052631579,
+        "false_compliance_rate": 0.17411764705882352,
+        "false_non_compliance_rate": 0.12307692307692308,
+        "macro_f1": 0.5871605502121076,
+        "num_cases": 1700,
+        "over_conservatism_rate": 0.5153846153846153,
+        "performance_drop_under_mutation": 0.03132885185223089,
+        "risk_weighted_error": 0.6760294117647059,
+        "unsupported_claim_rate": 0.0
+      },
+      "model_or_method": "metadata_aware_rule_based_v02",
+      "retrieval_method": "tfidf"
+    }
+  },
+  "k": 5,
+  "method": "bm25",
+  "metrics": {
+    "abstention_rate": 0.17411764705882352,
+    "evidence_f1": 0.7962889822595705,
+    "f1_fulfilled": 0.7224669603524229,
+    "f1_not_fulfilled": 0.707720588235294,
+    "f1_partially_fulfilled": 0.42841530054644805,
+    "f1_unclear": 0.4329608938547486,
+    "false_compliance_rate": 0.09705882352941177,
+    "false_non_compliance_rate": 0.0,
+    "macro_f1": 0.5728909357472284,
+    "num_cases": 1700,
+    "over_conservatism_rate": 0.36923076923076925,
+    "performance_drop_under_mutation": 0.1511771519302989,
+    "risk_weighted_error": 0.49661764705882355,
+    "unsupported_claim_rate": 0.0
+  },
+  "num_cases": 1700,
+  "version": "v04"
+}

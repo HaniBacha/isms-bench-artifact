@@ -1,0 +1,5 @@
+dataset,method,macro_f1,evidence_f1,unsupported_claim_rate,false_compliance_rate,abstention_rate,over_conservatism_rate,false_non_compliance_rate,risk_weighted_error,num_cases,f1_fulfilled,f1_partially_fulfilled,f1_not_fulfilled,f1_unclear,source_attribution_failure_rate,unsafe_evidence_acceptance_rate,residual_attack_risk_score
+manual_challenge_v09,metadata_aware,0.5772005772005773,0.8720952380952381,0.0,0.1,0.26,0.9,0.0,0.375,50,0.18181818181818182,0.5714285714285714,0.8148148148148148,0.7407407407407408,0.12,0.14,0.131
+manual_challenge_v09,provenance_balanced,0.5625942684766214,0.8756190476190475,0.0,0.06,0.2,0.0,0.0,0.42,50,1.0,0.3529411764705882,0.5641025641025641,0.3333333333333333,0.0,0.0,0.0
+manual_challenge_v09,provenance_conservative,0.5371270055480581,0.8756190476190475,0.0,0.04,0.26,0.1,0.0,0.425,50,0.9473684210526316,0.2666666666666667,0.5641025641025641,0.3703703703703704,0.0,0.0,0.0
+manual_challenge_v09,provenance_conservative_with_source_guard,0.5371270055480581,0.8756190476190475,0.0,0.04,0.26,0.1,0.0,0.425,50,0.9473684210526316,0.2666666666666667,0.5641025641025641,0.3703703703703704,0.0,0.0,0.0

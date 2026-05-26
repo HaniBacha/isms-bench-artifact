@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Combined attack-suite results. Full success means a false fulfilled decision; partial success means unsafe evidence acceptance without a fulfilled decision; residual attack risk is computed on the combined attack suite.}
+\label{tab:attack-main}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Attack succ. & Full succ. & Partial succ. & Resid. attack risk & Abstain \\
+\midrule
+Metadata-blind & 0.743 & 0.143 & 0.600 & 0.785 & 0.163 \\
+Metadata-aware & 0.743 & 0.143 & 0.600 & 0.766 & 0.148 \\
+Prov.-balanced & 0.343 & 0.010 & 0.333 & 0.330 & 0.143 \\
+Prov.-conservative & 0.343 & 0.000 & 0.343 & 0.318 & 0.293 \\
+Prov.-cons. + guard & 0.343 & 0.000 & 0.343 & 0.318 & 0.293 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

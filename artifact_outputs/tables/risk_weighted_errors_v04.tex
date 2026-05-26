@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Risk-weighted error and conservatism metrics.}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llllll}
+\toprule
+method & risk\_weighted\_error & false\_compliance\_rate & abstention\_rate & over\_conservatism\_rate & false\_non\_compliance\_rate \\
+\midrule
+random & 1.435735294117647 & 0.36823529411764705 & 0.2564705882352941 & 0.517948717948718 & 0.23846153846153847 \\
+majority & 1.0823529411764705 & 0.48823529411764705 & 0.0 & 1.0 & 0.0 \\
+bm25\_metadata\_blind\_rules & 0.9205882352941176 & 0.2858823529411765 & 0.12823529411764706 & 0.5461538461538461 & 0.12307692307692308 \\
+bm25\_metadata\_aware\_rules & 0.6689705882352941 & 0.16941176470588235 & 0.20470588235294118 & 0.5461538461538461 & 0.12307692307692308 \\
+tfidf\_metadata\_aware\_rules & 0.6760294117647059 & 0.17411764705882352 & 0.2 & 0.5153846153846153 & 0.12307692307692308 \\
+oracle\_retrieval\_metadata\_aware\_rules & 0.6163235294117647 & 0.22 & 0.26 & 0.5435897435897435 & 0.0 \\
+bm25\_provenance\_balanced & 0.49661764705882355 & 0.09705882352941177 & 0.17411764705882352 & 0.36923076923076925 & 0.0 \\
+bm25\_provenance\_conservative & 0.4375 & 0.028823529411764706 & 0.4047058823529412 & 0.5153846153846153 & 0.0 \\
+bm25\_provenance\_conservative\_source\_guard & 0.4375 & 0.028823529411764706 & 0.4047058823529412 & 0.5153846153846153 & 0.0 \\
+oracle\_retrieval\_provenance\_balanced & 0.46941176470588236 & 0.10647058823529412 & 0.1676470588235294 & 0.0 & 0.0 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

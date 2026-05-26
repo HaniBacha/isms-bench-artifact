@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\caption{Real \texttt{gpt-oss-120b} LLM/RAG attack subset results on 150 attack cases. Residual attack risk is computed only on this attack subset.}
+\label{tab:llm-attack-v15}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Full succ. & Partial succ. & Unsafe ev. & Resid. attack risk & Abstain \\
+\midrule
+Zero-shot & 0.020 & 0.013 & 0.013 & 0.033 & 0.193 \\
+BM25-RAG & 0.000 & 0.027 & 0.027 & 0.027 & 0.127 \\
++Metadata & 0.007 & 0.073 & 0.080 & 0.081 & 0.140 \\
++Prov. prompt & 0.000 & 0.053 & 0.053 & 0.046 & 0.153 \\
++Conservative & 0.000 & 0.040 & 0.040 & 0.031 & 0.187 \\
+\bottomrule
+\end{tabular}
+\end{table}

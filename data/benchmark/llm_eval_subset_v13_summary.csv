@@ -1,0 +1,9 @@
+subset,suite,requested,selected
+non_attack,development,50,50
+non_attack,heldout,50,50
+non_attack,stress,50,50
+non_attack,mutation,50,50
+non_attack,paraphrase_multilingual,50,50
+non_attack,manual_challenge,50,50
+attack,adaptive_attack,100,100
+attack,original_attack,50,50

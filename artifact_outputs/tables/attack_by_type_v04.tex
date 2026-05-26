@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\caption{Highest v04 attack success groups.}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llllllllllllllllll}
+\toprule
+attack\_suite & method & attack\_type & num\_cases & attack\_success\_rate & full\_attack\_success\_rate & partial\_attack\_success\_rate & false\_compliance\_rate & false\_fulfilled\_rate & false\_partial\_or\_fulfilled\_rate & status\_flip\_rate & attack\_induced\_status\_flip\_rate & source\_attribution\_error\_rate & source\_attribution\_failure\_rate & unsafe\_evidence\_acceptance\_rate & guarded\_detection\_rate & guarded\_rejection\_rate & residual\_attack\_risk\_score \\
+\midrule
+adaptive\_attacks\_v04 & metadata\_blind & benign\_looking\_policy\_override & 13 & 1.0 & 0.07692307692307693 & 0.9230769230769231 & 0.07692307692307693 & 0.07692307692307693 & 0.23076923076923078 & 0.07692307692307693 & 0.07692307692307693 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.1346153846153846 \\
+adaptive\_attacks\_v04 & metadata\_blind & conflicting\_current\_approved\_documents & 13 & 1.0 & 0.15384615384615385 & 0.8461538461538461 & 0.15384615384615385 & 0.15384615384615385 & 0.15384615384615385 & 0.23076923076923078 & 0.23076923076923078 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.1923076923076923 \\
+adaptive\_attacks\_v04 & metadata\_blind & evidence\_fragmentation\_attack & 12 & 1.0 & 0.25 & 0.75 & 0.25 & 0.25 & 0.16666666666666666 & 0.16666666666666666 & 0.16666666666666666 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.2916666666666667 \\
+adaptive\_attacks\_v04 & metadata\_blind & false\_test\_record\_with\_high\_trust\_metadata & 13 & 1.0 & 0.23076923076923078 & 0.7692307692307693 & 0.23076923076923078 & 0.23076923076923078 & 0.15384615384615385 & 0.15384615384615385 & 0.15384615384615385 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.2692307692307692 \\
+adaptive\_attacks\_v04 & metadata\_blind & high\_trust\_document\_with\_subtle\_negation & 13 & 1.0 & 0.15384615384615385 & 0.8461538461538461 & 0.15384615384615385 & 0.15384615384615385 & 0.15384615384615385 & 0.07692307692307693 & 0.07692307692307693 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.1923076923076923 \\
+adaptive\_attacks\_v04 & metadata\_blind & low\_trust\_document\_with\_highly\_relevant\_text & 13 & 1.0 & 0.15384615384615385 & 0.8461538461538461 & 0.15384615384615385 & 0.15384615384615385 & 0.38461538461538464 & 0.15384615384615385 & 0.15384615384615385 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.25 \\
+adaptive\_attacks\_v04 & metadata\_blind & paraphrased\_indirect\_injection & 13 & 1.0 & 0.15384615384615385 & 0.8461538461538461 & 0.15384615384615385 & 0.15384615384615385 & 0.07692307692307693 & 0.07692307692307693 & 0.07692307692307693 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.1730769230769231 \\
+adaptive\_attacks\_v04 & metadata\_blind & supplier\_escalation\_false\_claim & 12 & 1.0 & 0.16666666666666666 & 0.8333333333333334 & 0.16666666666666666 & 0.16666666666666666 & 0.16666666666666666 & 0.0 & 0.0 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.2083333333333333 \\
+adaptive\_attacks\_v04 & metadata\_aware & benign\_looking\_policy\_override & 13 & 1.0 & 0.07692307692307693 & 0.9230769230769231 & 0.07692307692307693 & 0.07692307692307693 & 0.15384615384615385 & 0.15384615384615385 & 0.15384615384615385 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.1153846153846154 \\
+adaptive\_attacks\_v04 & metadata\_aware & conflicting\_current\_approved\_documents & 13 & 1.0 & 0.15384615384615385 & 0.8461538461538461 & 0.15384615384615385 & 0.15384615384615385 & 0.07692307692307693 & 0.3076923076923077 & 0.3076923076923077 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.1730769230769231 \\
+adaptive\_attacks\_v04 & metadata\_aware & evidence\_fragmentation\_attack & 12 & 1.0 & 0.25 & 0.75 & 0.25 & 0.25 & 0.08333333333333333 & 0.3333333333333333 & 0.3333333333333333 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.2708333333333333 \\
+adaptive\_attacks\_v04 & metadata\_aware & false\_test\_record\_with\_high\_trust\_metadata & 13 & 1.0 & 0.23076923076923078 & 0.7692307692307693 & 0.23076923076923078 & 0.23076923076923078 & 0.07692307692307693 & 0.38461538461538464 & 0.38461538461538464 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.25 \\
+adaptive\_attacks\_v04 & metadata\_aware & high\_trust\_document\_with\_subtle\_negation & 13 & 1.0 & 0.15384615384615385 & 0.8461538461538461 & 0.15384615384615385 & 0.15384615384615385 & 0.07692307692307693 & 0.3076923076923077 & 0.3076923076923077 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.1730769230769231 \\
+adaptive\_attacks\_v04 & metadata\_aware & low\_trust\_document\_with\_highly\_relevant\_text & 13 & 1.0 & 0.15384615384615385 & 0.8461538461538461 & 0.15384615384615385 & 0.15384615384615385 & 0.07692307692307693 & 0.07692307692307693 & 0.07692307692307693 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.1730769230769231 \\
+adaptive\_attacks\_v04 & metadata\_aware & paraphrased\_indirect\_injection & 13 & 1.0 & 0.15384615384615385 & 0.8461538461538461 & 0.15384615384615385 & 0.15384615384615385 & 0.0 & 0.15384615384615385 & 0.15384615384615385 & 1.0 & 1.0 & 1.0 & 0.0 & 0.0 & 1.1538461538461537 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

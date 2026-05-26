@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{Evaluation suites used in the ACSAC-oriented framing. Sizes refer to deterministic generated artifacts under seed 42.}
+\label{tab:eval-suites-v08}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllll}
+\toprule
+Suite & Size & Purpose & Primary risk tested & Limitation \\
+\midrule
+Development templates & 500 & sanity and development split & baseline behavior & generator-authored \\
+Heldout templates & 500 & wording and structure transfer & template coupling & still synthetic \\
+Stress split & 300 & difficult metadata/provenance cases & source confusion and contradictions & rule-detectable cases remain \\
+Mutation cases & 200 & controlled evidence changes & missing roles, tests, validity, negation & derived from synthetic positives \\
+Paraphrase/multilingual & 200 & English/German terminology variation & retrieval and semantic variation & limited language coverage \\
+Advanced static attacks & 200 & less obvious adversarial documents & unsafe evidence and source attribution & illustrative static attack set \\
+Independent challenge & 80 & fixed project-authored challenge cases & generator dependence & not expert-adjudicated \\
+Alternative generator & 400 & paragraph-level alternative generation & original-template dependence & still synthetic \\
+Manual challenge & 50 & fixed project-authored mini-split & generated-template dependence & still project-authored \\
+Public-template-like distractors & 36 passages & distractor and source-confusion stress & norm/company confusion & not a real enterprise corpus \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

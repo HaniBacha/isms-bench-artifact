@@ -1,0 +1,21 @@
+[
+  {
+    "domain": "Incident Management",
+    "expected_evidence_types": [
+      "documented_incident_response_process",
+      "assigned_roles_and_responsibilities",
+      "incident_reporting_channel",
+      "escalation_procedure",
+      "periodic_testing_or_exercises",
+      "post_incident_review_or_lessons_learned",
+      "supplier_or_third_party_incident_escalation",
+      "evidence_of_recent_test_or_exercise",
+      "management_approval",
+      "document_version_and_validity"
+    ],
+    "requirement_id": "IR-V02-001",
+    "source": "synthetic_ir_control_set_v02",
+    "text": "The organization shall maintain current and approved incident response documentation, assign roles and reporting channels, define escalation including supplier or third-party incidents, test the process periodically, retain recent exercise evidence, perform post-incident review or lessons learned activities, and maintain document version validity.",
+    "title": "Evidence-grounded incident response management"
+  }
+]

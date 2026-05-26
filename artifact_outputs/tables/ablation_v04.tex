@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{v04 ablation study.}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llll}
+\toprule
+method & macro\_f1 & false\_compliance & abstention \\
+\midrule
+random & 0.25026379835704904 & 0.36823529411764705 & 0.2564705882352941 \\
+majority & 0.11009174311926606 & 0.48823529411764705 & 0.0 \\
+bm25\_metadata\_blind\_rules & 0.488052375345274 & 0.2858823529411765 & 0.12823529411764706 \\
+bm25\_metadata\_aware\_rules & 0.5829751787692788 & 0.16941176470588235 & 0.20470588235294118 \\
+tfidf\_metadata\_aware\_rules & 0.5871605502121076 & 0.17411764705882352 & 0.2 \\
+oracle\_retrieval\_metadata\_aware\_rules & 0.6380407485696716 & 0.22 & 0.26 \\
+bm25\_provenance\_balanced & 0.5728909357472284 & 0.09705882352941177 & 0.17411764705882352 \\
+bm25\_provenance\_conservative & 0.5124046761548 & 0.028823529411764706 & 0.4047058823529412 \\
+bm25\_provenance\_conservative\_source\_guard & 0.5124046761548 & 0.028823529411764706 & 0.4047058823529412 \\
+oracle\_retrieval\_provenance\_balanced & 0.6181720788503524 & 0.10647058823529412 & 0.1676470588235294 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

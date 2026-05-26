@@ -1,0 +1,27 @@
+{
+  "bundling_policy": "The dataset stores URLs and locally generated surrogate snippets; it does not redistribute copied standards or template text beyond short generic references.",
+  "num_cases": 60,
+  "num_evidence_passages": 60,
+  "sources": [
+    {
+      "license": "U.S. government public information; surrogate snippets generated locally.",
+      "name": "NIST SP 800-61 incident response guidance",
+      "url": "https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final"
+    },
+    {
+      "license": "Public GitHub repository; only URLs and generated surrogate snippets are bundled.",
+      "name": "NIST OSCAL examples",
+      "url": "https://github.com/usnistgov/OSCAL"
+    },
+    {
+      "license": "Public guidance page; only URLs and generated surrogate snippets are bundled.",
+      "name": "CISA incident response public guidance",
+      "url": "https://www.cisa.gov/resources-tools/resources/incident-response"
+    },
+    {
+      "license": "Public project metadata; only URLs and generated surrogate snippets are bundled.",
+      "name": "OpenControl example control content",
+      "url": "https://github.com/opencontrol"
+    }
+  ]
+}

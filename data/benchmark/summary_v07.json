@@ -1,0 +1,20 @@
+{
+  "alt_generator_cases": 400,
+  "alt_generator_evidence_passages": 1180,
+  "alt_generator_label_counts": {
+    "fulfilled": 100,
+    "not_fulfilled": 100,
+    "partially_fulfilled": 100,
+    "unclear": 100
+  },
+  "independent_challenge_cases": 80,
+  "independent_challenge_evidence_passages": 228,
+  "independent_challenge_label_counts": {
+    "fulfilled": 20,
+    "not_fulfilled": 20,
+    "partially_fulfilled": 20,
+    "unclear": 20
+  },
+  "public_template_distractors": 36,
+  "seed": 42
+}

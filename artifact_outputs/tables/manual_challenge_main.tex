@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{Manual challenge set. These are fixed project-authored cases outside the main generator path; the residual-risk column is computed only within this 50-case set.}
+\label{tab:manual-challenge-main}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+Method & Macro-F1 & False comp. & Abstain & Manual resid. risk \\
+\midrule
+Metadata-aware & 0.577 & 0.100 & 0.260 & 0.131 \\
+Prov.-balanced & 0.563 & 0.060 & 0.200 & 0.000 \\
+Prov.-conservative & 0.537 & 0.040 & 0.260 & 0.000 \\
+Prov.-cons. + guard & 0.537 & 0.040 & 0.260 & 0.000 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

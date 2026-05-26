@@ -1,0 +1,2 @@
+case_id,requirement_text,evidence_ids,evidence_short_text_or_url,source_types,project_initial_status,reviewer_agrees,reviewer_corrected_status,reviewer_sufficient_evidence_ids,reviewer_rejected_evidence_ids,reviewer_uncertainty_low_medium_high,reviewer_rationale,confidentiality_or_copyright_concern
+EXAMPLE-001,"Paste requirement text here","ev-1|ev-2","Paste short excerpts/paraphrases and URLs here","public_org_policy|test_record","partially_fulfilled","","","","","","",""

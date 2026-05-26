@@ -1,0 +1,6 @@
+{
+  "max_base_cases": 15,
+  "num_mutation_cases": 150,
+  "num_mutation_evidence_passages": 930,
+  "seed": 42
+}

@@ -1,0 +1,15 @@
+{
+  "label_counts": {
+    "fulfilled": 30,
+    "not_fulfilled": 90,
+    "partially_fulfilled": 120,
+    "unclear": 60
+  },
+  "num_attack_cases": 0,
+  "num_attack_evidence_passages": 0,
+  "num_cases": 300,
+  "num_evidence_passages": 1770,
+  "seed": 42,
+  "split": "stress_test",
+  "version": "v03"
+}

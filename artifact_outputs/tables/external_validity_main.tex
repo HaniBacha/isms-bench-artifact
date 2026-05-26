@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{Robustness and diagnostic stress checks. For non-attack rows, including the core benchmark rows, the last column reports dataset-specific grounding risk over non-attack predictions; for advanced static attack rows, it reports residual attack risk. These values are not the combined attack-suite residual attack risk in Table~\ref{tab:risk-tradeoff-main}.}
+\label{tab:external-validity-main}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & Method & Macro-F1 & False comp. & Abstain & Ground./attack risk \\
+\midrule
+Core benchmark & Metadata & 0.583 & 0.169 & 0.205 & 0.550 \\
+Core benchmark & Prov.-bal. & 0.573 & 0.097 & 0.174 & 0.026 \\
+Core benchmark & Prov.-cons. & 0.512 & 0.029 & 0.405 & 0.000 \\
+Independent & Metadata & 0.648 & 0.025 & 0.225 & 0.057 \\
+Independent & Prov.-bal. & 0.479 & 0.025 & 0.300 & 0.000 \\
+Independent & Prov.-cons. & 0.627 & 0.000 & 0.463 & 0.000 \\
+Alternative gen. & Metadata & 0.378 & 0.000 & 0.200 & 0.100 \\
+Alternative gen. & Prov.-bal. & 0.667 & 0.000 & 0.250 & 0.000 \\
+Alternative gen. & Prov.-cons. & 0.616 & 0.000 & 0.300 & 0.000 \\
+Adv. static attack & Metadata & 0.399 & 0.150 & 0.105 & 0.811 \\
+Adv. static attack & Prov.-bal. & 0.281 & 0.020 & 0.080 & 0.599 \\
+Adv. static attack & Prov.-cons. & 0.321 & 0.000 & 0.245 & 0.576 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

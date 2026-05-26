@@ -1,0 +1,30 @@
+\begin{table}[t]
+\centering
+\caption{Bootstrap confidence intervals.}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llllll}
+\toprule
+surface & method & metric & estimate & ci\_low & ci\_high \\
+\midrule
+compliance & bm25\_metadata\_aware\_rules & macro\_f1 & 0.5829751787692788 & 0.5630829058195841 & 0.6056209822489929 \\
+compliance & bm25\_metadata\_aware\_rules & false\_compliance\_rate & 0.16941176470588235 & 0.15294117647058825 & 0.1888235294117647 \\
+compliance & bm25\_metadata\_aware\_rules & abstention\_rate & 0.20470588235294118 & 0.18352941176470589 & 0.2188235294117647 \\
+compliance & bm25\_metadata\_aware\_rules & risk\_weighted\_error & 0.6689705882352941 & 0.6254411764705883 & 0.7208823529411764 \\
+compliance & bm25\_provenance\_balanced & macro\_f1 & 0.5728909357472284 & 0.5503544803249383 & 0.5941207633624266 \\
+compliance & bm25\_provenance\_balanced & false\_compliance\_rate & 0.09705882352941177 & 0.08588235294117647 & 0.1111764705882353 \\
+compliance & bm25\_provenance\_balanced & abstention\_rate & 0.17411764705882352 & 0.15235294117647058 & 0.19058823529411764 \\
+compliance & bm25\_provenance\_balanced & risk\_weighted\_error & 0.49661764705882355 & 0.46558823529411764 & 0.535 \\
+compliance & bm25\_provenance\_conservative & macro\_f1 & 0.5124046761548 & 0.4891229859797801 & 0.537605457155762 \\
+compliance & bm25\_provenance\_conservative & false\_compliance\_rate & 0.028823529411764706 & 0.02176470588235294 & 0.036470588235294116 \\
+compliance & bm25\_provenance\_conservative & abstention\_rate & 0.4047058823529412 & 0.3847058823529412 & 0.43 \\
+compliance & bm25\_provenance\_conservative & risk\_weighted\_error & 0.4375 & 0.41191176470588237 & 0.4598529411764706 \\
+attack & metadata\_aware & attack\_success\_rate & 0.7425 & 0.695 & 0.79 \\
+attack & metadata\_aware & full\_attack\_success\_rate & 0.1425 & 0.1125 & 0.1775 \\
+attack & metadata\_aware & partial\_attack\_success\_rate & 0.6 & 0.5475 & 0.65 \\
+attack & metadata\_aware & abstention\_rate & 0.1475 & 0.105 & 0.1775 \\
+attack & metadata\_aware & residual\_attack\_risk\_score & 0.7659999999999999 & 0.708625 & 0.8240000000000001 \\
+attack & provenance\_balanced & attack\_success\_rate & 0.3425 & 0.3075 & 0.39 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

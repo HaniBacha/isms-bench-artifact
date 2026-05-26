@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Main deterministic methods compared. Oracle and random baselines are retained in artifact tables.}
+\label{tab:methods-main}
+\begin{tabular}{llll}
+\toprule
+Method & Retrieval & Metadata & Decision policy \\
+\midrule
+Metadata-blind & BM25 & no & rules \\
+Metadata-aware & BM25 & yes & rules \\
+Provenance-balanced & BM25 & yes & risk-sensitive \\
+Provenance-conservative & BM25 & yes & conservative \\
+Conservative + guard & BM25 & yes & guarded \\
+\bottomrule
+\end{tabular}
+\end{table}

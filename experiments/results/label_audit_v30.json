@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "audited_cases": 2196,
+  "known_evidence_ids": 9736,
+  "label_counts": {
+    "fulfilled": 412,
+    "not_fulfilled": 568,
+    "partially_fulfilled": 639,
+    "unclear": 577
+  },
+  "findings": [],
+  "note": "This audit checks structural label/evidence consistency. It is not expert adjudication."
+}

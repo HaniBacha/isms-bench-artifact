@@ -1,0 +1,11 @@
+method,num_cases,cases_with_source_guard_findings,source_guard_findings
+random,1700,0,0
+majority,1700,0,0
+bm25_metadata_blind_rules,1700,0,0
+bm25_metadata_aware_rules,1700,0,0
+tfidf_metadata_aware_rules,1700,0,0
+oracle_retrieval_metadata_aware_rules,1700,0,0
+bm25_provenance_balanced,1700,0,0
+bm25_provenance_conservative,1700,0,0
+bm25_provenance_conservative_source_guard,1700,0,0
+oracle_retrieval_provenance_balanced,1700,0,0

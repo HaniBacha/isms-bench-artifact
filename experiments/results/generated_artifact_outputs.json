@@ -1,0 +1,21 @@
+{
+  "generated": [
+    "artifact_outputs/tables/retrieval_metrics.tex",
+    "artifact_outputs/tables/compliance_metrics.tex",
+    "artifact_outputs/tables/benchmark_composition_v04.tex",
+    "artifact_outputs/tables/methods_compared_v04.tex",
+    "artifact_outputs/tables/overall_results_v04.tex",
+    "artifact_outputs/tables/by_split_v04.tex",
+    "artifact_outputs/tables/ablation_v04.tex",
+    "artifact_outputs/tables/attack_results_v04.tex",
+    "artifact_outputs/tables/risk_weighted_errors_v04.tex",
+    "artifact_outputs/tables/attack_by_type_v04.tex",
+    "artifact_outputs/tables/bootstrap_ci_v04.tex",
+    "artifact_outputs/tables/method_comparison_tests_v04.tex",
+    "artifact_outputs/figures/attack_success_by_method_v04.png",
+    "artifact_outputs/figures/false_compliance_vs_abstention_v04.png",
+    "artifact_outputs/figures/split_performance_v04.png",
+    "artifact_outputs/figures/prototype_architecture_v04.png",
+    "artifact_outputs/figures/benchmark_generation_pipeline_v04.png"
+  ]
+}

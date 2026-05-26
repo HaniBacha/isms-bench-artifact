@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Real \texttt{gpt-oss-120b} LLM/RAG non-attack subset results on 150 cases. The residual-risk column is the operational grounding-risk score on this non-attack subset.}
+\label{tab:llm-nonattack-v15}
+\begin{tabular}{lrrrr}
+\toprule
+Method & Macro-F1 & False comp. & Abstain & Non-attack resid. risk \\
+\midrule
+Zero-shot & 0.566 & 0.107 & 0.153 & 0.058 \\
+BM25-RAG & 0.497 & 0.107 & 0.233 & 0.049 \\
++Metadata & 0.540 & 0.067 & 0.220 & 0.093 \\
++Prov. prompt & 0.636 & 0.020 & 0.173 & 0.088 \\
++Conservative & 0.549 & 0.047 & 0.167 & 0.081 \\
+\bottomrule
+\end{tabular}
+\end{table}

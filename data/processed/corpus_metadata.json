@@ -1,0 +1,8 @@
+{
+  "domain": "Incident Management",
+  "num_requirements": 4,
+  "num_requirements_v02": 1,
+  "scope_note": "Pre-assessment research benchmark; not certification.",
+  "source": "synthetic_ir_control_set_v1",
+  "source_v02": "synthetic_ir_control_set_v02"
+}

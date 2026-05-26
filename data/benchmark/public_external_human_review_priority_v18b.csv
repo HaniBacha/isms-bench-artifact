@@ -1,0 +1,43 @@
+case_id,original_case_id,expected_status,priority,reason,suggested_human_question
+PUBEXT18B-001,PUBEXT18-001,fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-002,PUBEXT18-002,fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-003,PUBEXT18-003,fulfilled,medium,requirement_too_composite|label_too_strict|method_overabstains,Should the requirement be split into narrower cases before review?
+PUBEXT18B-004,PUBEXT18-004,fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-005,PUBEXT18-005,fulfilled,medium,requirement_too_composite|paraphrase_too_short|label_too_strict|method_overabstains,Should the requirement be split into narrower cases before review?
+PUBEXT18B-006,PUBEXT18-006,fulfilled,low,paraphrase_too_short,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-007,PUBEXT18-007,fulfilled,low,genuine_generalization_failure,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-008,PUBEXT18-008,fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-009,PUBEXT18-009,fulfilled,medium,requirement_too_composite|label_too_strict,Should the requirement be split into narrower cases before review?
+PUBEXT18B-010,PUBEXT18-010,fulfilled,medium,requirement_too_composite|paraphrase_too_short|label_too_strict|method_overabstains,Should the requirement be split into narrower cases before review?
+PUBEXT18B-011,PUBEXT18-011,fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-012,PUBEXT18-012,fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-013,PUBEXT18-013,partially_fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-014,PUBEXT18-014,partially_fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-015,PUBEXT18-015,partially_fulfilled,high,requirement_too_composite|label_too_strict|method_overabstains|genuine_generalization_failure,Should the requirement be split into narrower cases before review?
+PUBEXT18B-016,PUBEXT18-016,partially_fulfilled,medium,requirement_too_composite|paraphrase_too_short|label_too_strict|method_overabstains,Should the requirement be split into narrower cases before review?
+PUBEXT18B-017,PUBEXT18-017,partially_fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-018,PUBEXT18-018,partially_fulfilled,low,method_overabstains,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-019,PUBEXT18-019,partially_fulfilled,high,method_overabstains|genuine_generalization_failure,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-020,PUBEXT18-020,partially_fulfilled,medium,requirement_too_composite|paraphrase_too_short|label_too_strict|method_overabstains,Should the requirement be split into narrower cases before review?
+PUBEXT18B-022,PUBEXT18-022,partially_fulfilled,medium,requirement_too_composite|label_too_strict|method_overabstains,Should the requirement be split into narrower cases before review?
+PUBEXT18B-025,PUBEXT18-025,not_fulfilled,high,public_guidance_used_as_org_evidence|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-026,PUBEXT18-026,not_fulfilled,high,public_guidance_used_as_org_evidence|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-027,PUBEXT18-027,not_fulfilled,high,public_guidance_used_as_org_evidence|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-028,PUBEXT18-028,not_fulfilled,high,template_guidance_confusion|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-029,PUBEXT18-029,not_fulfilled,high,template_guidance_confusion|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-030,PUBEXT18-030,not_fulfilled,high,public_guidance_used_as_org_evidence|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-031,PUBEXT18-031,not_fulfilled,high,template_guidance_confusion|public_guidance_used_as_org_evidence|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-032,PUBEXT18-032,not_fulfilled,high,template_guidance_confusion|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-033,PUBEXT18-033,not_fulfilled,high,template_guidance_confusion|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-034,PUBEXT18-034,not_fulfilled,high,template_guidance_confusion|public_guidance_used_as_org_evidence|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-035,PUBEXT18-035,not_fulfilled,high,public_guidance_used_as_org_evidence|policy_vs_implementation_confusion|missing_metadata|method_overabstains,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-036,PUBEXT18-036,unclear,high,method_overtrusts_policy|genuine_generalization_failure,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-037,PUBEXT18-037,unclear,high,method_overtrusts_policy|genuine_generalization_failure,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-038,PUBEXT18-038,unclear,high,method_overtrusts_policy|genuine_generalization_failure,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-040,PUBEXT18-040,unclear,high,method_overtrusts_policy|genuine_generalization_failure,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-041,PUBEXT18-041,unclear,high,method_overtrusts_policy|genuine_generalization_failure,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-042,PUBEXT18-042,unclear,high,template_guidance_confusion|policy_vs_implementation_confusion|missing_metadata,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"
+PUBEXT18B-043,PUBEXT18-043,unclear,high,genuine_generalization_failure,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-044,PUBEXT18-044,unclear,high,method_overtrusts_policy|genuine_generalization_failure,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-045,PUBEXT18-045,unclear,high,paraphrase_too_short,Does the public evidence support the expected status under the canonical source type?
+PUBEXT18B-046,PUBEXT18-046,unclear,high,template_guidance_confusion|policy_vs_implementation_confusion|missing_metadata|method_overtrusts_policy|genuine_generalization_failure,"Should this case remain a non-implementation/template-guidance stress case, and is the project-initial label correct?"

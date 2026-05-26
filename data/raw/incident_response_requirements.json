@@ -1,0 +1,47 @@
+[
+  {
+    "domain": "Incident Management",
+    "expected_evidence_types": [
+      "process",
+      "roles",
+      "post_incident_review"
+    ],
+    "requirement_id": "IR-001",
+    "source": "synthetic_ir_control_set_v1",
+    "text": "The organization shall maintain a documented information security incident response process covering detection, triage, containment, eradication, recovery, communication, and post-incident review.",
+    "title": "Documented incident response process"
+  },
+  {
+    "domain": "Incident Management",
+    "expected_evidence_types": [
+      "roles",
+      "escalation"
+    ],
+    "requirement_id": "IR-002",
+    "source": "synthetic_ir_control_set_v1",
+    "text": "The organization shall assign incident response roles and responsibilities, including escalation ownership and decision authority for incident handling.",
+    "title": "Incident response roles and responsibilities"
+  },
+  {
+    "domain": "Incident Management",
+    "expected_evidence_types": [
+      "testing",
+      "lessons_learned"
+    ],
+    "requirement_id": "IR-003",
+    "source": "synthetic_ir_control_set_v1",
+    "text": "The organization shall test the incident response process through tabletop exercises, simulations, or equivalent drills and track lessons learned.",
+    "title": "Testing of incident response capability"
+  },
+  {
+    "domain": "Incident Management",
+    "expected_evidence_types": [
+      "reporting",
+      "escalation"
+    ],
+    "requirement_id": "IR-004",
+    "source": "synthetic_ir_control_set_v1",
+    "text": "The organization shall define reporting and escalation channels for suspected or confirmed information security incidents, including time-bound notification criteria.",
+    "title": "Incident reporting and escalation"
+  }
+]

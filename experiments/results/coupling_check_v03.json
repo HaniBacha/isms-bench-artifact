@@ -1,0 +1,14 @@
+{
+  "check": "heuristic_static_and_runtime_generator_coupling",
+  "findings": [],
+  "forbidden_runtime_fields": [
+    "attack_type",
+    "criteria_truth",
+    "difficulty_type",
+    "ground_truth_evidence_ids",
+    "ground_truth_status",
+    "mutation_type",
+    "planted"
+  ],
+  "passed": true
+}

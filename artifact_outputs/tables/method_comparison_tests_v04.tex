@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Method comparison tests.}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lllllllll}
+\toprule
+comparison & test & b\_only\_correct & c\_only\_correct & p\_value\_approx & notes & estimate & ci\_low & ci\_high \\
+\midrule
+provenance\_balanced\_vs\_metadata\_aware & mcnemar\_normal\_approx & 321 & 352 & 0.24751144214948217 & Approximate McNemar test on paired classification correctness. &  &  &  \\
+false\_compliance\_reduction\_provenance\_vs\_metadata & paired\_bootstrap\_difference &  &  &  & Positive value means provenance-balanced reduces false compliance. & 0.07235294117647059 & 0.05235294117647059 & 0.09058823529411765 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

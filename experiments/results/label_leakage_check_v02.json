@@ -1,0 +1,14 @@
+{
+  "findings": [],
+  "forbidden_tokens": [
+    "ground_truth_status",
+    "ground_truth_evidence_ids",
+    "criteria_truth",
+    "difficulty_type",
+    "mutation_type",
+    "attack_type",
+    "planted"
+  ],
+  "passed": true,
+  "runtime_prediction_schema": "passed"
+}

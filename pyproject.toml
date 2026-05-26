@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ki-sec-assist"
+version = "0.1.0"
+description = "Evidence-grounded ISMS compliance pre-assessment benchmark prototype."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "KI-SEC Assist Research Prototype" }
+]
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "scikit-learn>=1.1",
+  "matplotlib>=3.6"
+]
+
+[project.optional-dependencies]
+bm25 = ["rank-bm25>=0.2.2"]
+dense = ["sentence-transformers>=2.2"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,247 @@
+{
+  "BenchmarkCase": {
+    "properties": {
+      "attack_type": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "case_id": {
+        "type": "string"
+      },
+      "company_document_ids": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "criteria_truth": {
+        "type": "object"
+      },
+      "difficulty_type": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "expected_criteria": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "ground_truth_evidence_ids": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "ground_truth_status": {
+        "enum": [
+          "fulfilled",
+          "partially_fulfilled",
+          "not_fulfilled",
+          "unclear"
+        ],
+        "type": "string"
+      },
+      "metadata": {
+        "type": "object"
+      },
+      "missing_evidence": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "mutation_type": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "rationale": {
+        "type": "string"
+      },
+      "requirement_id": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "case_id",
+      "requirement_id",
+      "company_document_ids",
+      "ground_truth_status",
+      "ground_truth_evidence_ids",
+      "missing_evidence",
+      "rationale"
+    ],
+    "type": "object"
+  },
+  "EvidencePassage": {
+    "properties": {
+      "approval_status": {
+        "enum": [
+          "approved",
+          "draft",
+          "expired",
+          "unknown"
+        ],
+        "type": "string"
+      },
+      "created_at": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "document_id": {
+        "type": "string"
+      },
+      "evidence_id": {
+        "type": "string"
+      },
+      "language": {
+        "enum": [
+          "de",
+          "en"
+        ],
+        "type": "string"
+      },
+      "metadata": {
+        "type": "object"
+      },
+      "planted": {
+        "type": "boolean"
+      },
+      "section_title": {
+        "type": "string"
+      },
+      "source_trust_level": {
+        "enum": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "type": "string"
+      },
+      "source_type": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "valid_from": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "valid_until": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "evidence_id",
+      "document_id",
+      "section_title",
+      "text",
+      "source_type",
+      "planted",
+      "metadata"
+    ],
+    "type": "object"
+  },
+  "Requirement": {
+    "properties": {
+      "domain": {
+        "type": "string"
+      },
+      "expected_evidence_types": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "requirement_id": {
+        "type": "string"
+      },
+      "source": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "requirement_id",
+      "source",
+      "title",
+      "text",
+      "domain",
+      "expected_evidence_types"
+    ],
+    "type": "object"
+  },
+  "SystemPrediction": {
+    "properties": {
+      "case_id": {
+        "type": "string"
+      },
+      "confidence": {
+        "type": "number"
+      },
+      "config": {
+        "type": "object"
+      },
+      "explanation": {
+        "type": "string"
+      },
+      "model_or_method": {
+        "type": "string"
+      },
+      "predicted_status": {
+        "enum": [
+          "fulfilled",
+          "partially_fulfilled",
+          "not_fulfilled",
+          "unclear"
+        ],
+        "type": "string"
+      },
+      "retrieved_evidence_ids": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "unsupported_claims": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      }
+    },
+    "required": [
+      "case_id",
+      "predicted_status",
+      "retrieved_evidence_ids",
+      "explanation",
+      "confidence",
+      "unsupported_claims",
+      "model_or_method",
+      "config"
+    ],
+    "type": "object"
+  }
+}

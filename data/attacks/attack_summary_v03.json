@@ -1,0 +1,8 @@
+{
+  "max_base_cases": 200,
+  "num_attack_cases": 200,
+  "num_attack_evidence_passages": 222,
+  "num_source_cases": 1300,
+  "seed": 42,
+  "version": "v03"
+}

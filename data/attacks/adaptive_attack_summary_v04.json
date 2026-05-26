@@ -1,0 +1,9 @@
+{
+  "adaptive": true,
+  "max_base_cases": 200,
+  "num_attack_cases": 200,
+  "num_attack_evidence_passages": 225,
+  "num_source_cases": 1500,
+  "seed": 42,
+  "version": "v04"
+}

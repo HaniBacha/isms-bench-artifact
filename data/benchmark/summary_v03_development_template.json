@@ -1,0 +1,15 @@
+{
+  "label_counts": {
+    "fulfilled": 125,
+    "not_fulfilled": 125,
+    "partially_fulfilled": 125,
+    "unclear": 125
+  },
+  "num_attack_cases": 0,
+  "num_attack_evidence_passages": 0,
+  "num_cases": 500,
+  "num_evidence_passages": 3043,
+  "seed": 42,
+  "split": "development_template",
+  "version": "v03"
+}

@@ -1,0 +1,3 @@
+comparison,test,b_only_correct,c_only_correct,p_value_approx,notes,estimate,ci_low,ci_high
+provenance_balanced_vs_metadata_aware,mcnemar_normal_approx,321,352,0.24751144214948217,Approximate McNemar test on paired classification correctness.,,,
+false_compliance_reduction_provenance_vs_metadata,paired_bootstrap_difference,,,,Positive value means provenance-balanced reduces false compliance.,0.07235294117647059,0.05235294117647059,0.09058823529411765

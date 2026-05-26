@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Evaluation suites. Sizes refer to deterministic artifacts generated with seed 42; challenge and manual cases are project-authored unless otherwise stated.}
+\label{tab:eval-suites-main}
+\begin{tabular}{lrlll}
+\toprule
+Suite & Size & Purpose & Primary risk tested & Limitation \\
+\midrule
+Development & 500 & sanity split & baseline behavior & generator-authored \\
+Heldout & 500 & wording transfer & template coupling & synthetic \\
+Stress & 300 & difficult evidence & source confusion & rule-detectable cases remain \\
+Mutation & 200 & evidence changes & missing/invalid controls & derived from positives \\
+Paraphrase/multilingual & 200 & terminology variation & retrieval robustness & limited languages \\
+Advanced static attacks & 200 & adversarial documents & unsafe evidence & static, no feedback loop \\
+Independent challenge & 80 & fixed project-authored challenge cases & generator dependence & project-authored \\
+Alternative generator & 400 & different generator path & template dependence & synthetic \\
+Manual challenge & 50 & fixed project-authored mini-split & generated-template dependence & project-authored \\
+\bottomrule
+\end{tabular}
+\end{table*}
